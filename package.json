@@ -1,0 +1,12 @@
+{
+	"name": "OneMusic",
+	"version": "0.0.1",
+	"description": "One centralized music player",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mc10/one-music.git"
+	},
+	"license": "GPL-3.0",
+	"readmeFilename": "README.md"
+}
