@@ -1,7 +1,7 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-color: lightblue;
+    background-color: #C3F0F2;
 }
 
 a {
@@ -13,6 +13,17 @@ a {
     width: 12em;
 }
 
-div {
+#music_icon {
+	width: 36px;
+}
+
+h1 {
+	font-size: 48px;
+}
+
+#js-upload-button {
+	margin-top: 10px;
+	background-color: ;
+	width: 250px;
 	
 }
