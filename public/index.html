@@ -3,21 +3,24 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>OneMusic</title>
-
+		<link rel="stylesheet" href="/css/style.css">
 		<script src="https://cdn.firebase.com/js/client/1.1.0/firebase.js"></script>
 	</head>
 
 	<body>
+		<div id="upload">
 		<h1>OneMusic</h1>
 		<form method="POST" action="">
 			<div>
 				Upload a music file:
 			</div>
-			<input type="file" id="js-input">
-			<button id="js-upload-button" type="button">Upload</button>
+			<div><input type="file" id="js-input"></div>
+			<div><button id="js-upload-button" type="button">Upload</button></div>
 		</form>
+		</div>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<script src="/js/dropbox.js"></script>
 		<script src="/js/main.js"></script>
+
 	</body>
 </html>

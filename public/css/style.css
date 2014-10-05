@@ -1,8 +1,18 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: lightblue;
 }
 
 a {
     color: #00B7FF;
+}
+
+#upload {
+	margin: 12em auto;
+    width: 12em;
+}
+
+div {
+	
 }
