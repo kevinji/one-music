@@ -10,7 +10,7 @@ a {
 
 #upload {
 	margin: 12em auto;
-    width: 12em;
+    width: 250px;
 }
 
 #music_icon {
@@ -18,12 +18,62 @@ a {
 }
 
 h1 {
-	font-size: 48px;
+	font-size: 60px;
 }
 
-#js-upload-button {
+#js-upload-button, #input{
 	margin-top: 10px;
-	background-color: ;
+	background-color: #30D8F0;
 	width: 250px;
-	
+	height: 50px;
+	border: 0px;
+	overflow: hidden;
 }
+
+
+#js-input {
+	display: block;
+	width: 157px;
+    height: 57px;
+    opacity: 0;
+    overflow: hidden;
+    cursor: pointer;
+    position: fixed;
+}
+
+#js-upload-button:hover, label:hover  {
+	background-color: #DDFFCC;
+}
+
+.upload_box:hover {
+	background-color: #DDFFCC;
+}
+
+.upload_box {  
+    overflow:hidden;  
+    position:relative; 
+    margin-top: 10px;
+	background-color: #30D8F0;
+	width: 250px;
+	height: 50px;
+	border: 0px;
+}  
+  
+#js-input {  
+    position:absolute;  
+    left:-300px;  
+}  
+  
+label {  
+    cursor:pointer;  
+    font-weight:bold;
+    margin-top: 10px;
+	background-color: #30D8F0;
+	width: 400px;
+	height: 50px;
+	border: 0px;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 6px;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+} 
